@@ -1,8 +1,8 @@
 class OpenBrowserUse < Formula
   desc "Browser automation native host and CLI"
   homepage "https://github.com/iFurySt/open-codex-browser-use"
-  url "https://github.com/iFurySt/open-codex-browser-use/archive/refs/tags/v0.1.10.tar.gz"
-  sha256 "881f81ccd357d08fa391b3e3edbc5bf4657a9f872e053c0ed97284941aaacf37"
+  url "https://github.com/iFurySt/open-codex-browser-use/archive/refs/tags/v0.1.11.tar.gz"
+  sha256 "adcf7c079eb0075038bbd737f56886268484e9521f056fcaf5dab4345f9b7a6e"
   license "MIT"
 
   depends_on "go" => :build
@@ -23,7 +23,7 @@ class OpenBrowserUse < Formula
 
         open-browser-use setup
 
-      While the Chrome Web Store item is pending, install the latest release CRX with:
+      While the Chrome Web Store item is pending, prepare the latest release zip for Load unpacked with:
 
         open-browser-use setup release
     EOS
