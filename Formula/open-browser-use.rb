@@ -1,8 +1,8 @@
 class OpenBrowserUse < Formula
   desc "Browser automation native host and CLI"
   homepage "https://github.com/iFurySt/open-codex-browser-use"
-  url "https://github.com/iFurySt/open-codex-browser-use/archive/refs/tags/v0.1.6.tar.gz"
-  sha256 "88326f81b320c5de4a32caf048d01ae2257a81b458edf01a47e286543dec268e"
+  url "https://github.com/iFurySt/open-codex-browser-use/archive/refs/tags/v0.1.7.tar.gz"
+  sha256 "7db151a194ad336147124170e6b782fe5685fe08d5a76562af4655c38225ab0c"
   license "MIT"
 
   depends_on "go" => :build
