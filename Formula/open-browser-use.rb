@@ -1,8 +1,8 @@
 class OpenBrowserUse < Formula
   desc "Browser automation native host and CLI"
   homepage "https://github.com/iFurySt/open-codex-browser-use"
-  url "https://github.com/iFurySt/open-codex-browser-use/archive/refs/tags/v0.1.16.tar.gz"
-  sha256 "a71ca33f4c4de63e43ba2ddd0491a8ac5caa71b4b604196e564018f85cc12a7c"
+  url "https://github.com/iFurySt/open-codex-browser-use/archive/refs/tags/v0.1.17.tar.gz"
+  sha256 "cb3cb848d782d99ed478ab581b9e6698141a2bc1d39c60018cbe9457bcc0f2a4"
   license "MIT"
 
   depends_on "go" => :build
@@ -19,7 +19,7 @@ class OpenBrowserUse < Formula
 
   def caveats
     <<~EOS
-      执行以下命令安装：
+      Run the following command to install:
 
         open-browser-use setup beta
     EOS
