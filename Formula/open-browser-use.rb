@@ -1,5 +1,5 @@
 class OpenBrowserUse < Formula
-  desc "Open Browser Use native host and CLI"
+  desc "Browser automation native host and CLI"
   homepage "https://github.com/iFurySt/open-codex-browser-use"
   url "https://github.com/iFurySt/open-codex-browser-use/archive/refs/tags/v0.1.4.tar.gz"
   sha256 "f5bab6d8fabe617dfbbf42e0dd1fff20ba0f167f11c5fdb833c00357825ada59"
