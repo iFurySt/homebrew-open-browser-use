@@ -1,8 +1,8 @@
 class OpenBrowserUse < Formula
   desc "Browser automation native host and CLI"
   homepage "https://github.com/iFurySt/open-codex-browser-use"
-  url "https://github.com/iFurySt/open-codex-browser-use/archive/refs/tags/v0.1.15.tar.gz"
-  sha256 "4eaad9408b7b097ea30823dc56cb2505cfbe1a56c589fd1c06766a44ed405966"
+  url "https://github.com/iFurySt/open-codex-browser-use/archive/refs/tags/v0.1.16.tar.gz"
+  sha256 "a71ca33f4c4de63e43ba2ddd0491a8ac5caa71b4b604196e564018f85cc12a7c"
   license "MIT"
 
   depends_on "go" => :build
@@ -19,13 +19,9 @@ class OpenBrowserUse < Formula
 
   def caveats
     <<~EOS
-      Run setup after installation to register Chrome integration:
+      执行以下命令安装：
 
-        open-browser-use setup
-
-      While the Chrome Web Store item is pending, prepare the keyed manual-install ZIP with:
-
-        open-browser-use setup release
+        open-browser-use setup beta
     EOS
   end
 end
