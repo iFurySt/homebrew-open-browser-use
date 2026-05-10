@@ -2,25 +2,25 @@ class OpenBrowserUse < Formula
   desc "Browser automation native host and CLI"
   homepage "https://github.com/iFurySt/open-codex-browser-use"
   license "MIT"
-  version "0.1.23"
+  version "0.1.24"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.23/open-browser-use-cli-0.1.23-darwin-arm64.tar.gz"
-      sha256 "a1f164b6df25922b864a78170cf8fc91b56b120187f95a10d964f406010d6c53"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.24/open-browser-use-cli-0.1.24-darwin-arm64.tar.gz"
+      sha256 "1e8aabfdb110af7a492f36ad7d424bd207e577bedd8b3a514f9e2325ddbd91c7"
     else
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.23/open-browser-use-cli-0.1.23-darwin-amd64.tar.gz"
-      sha256 "edd56a8dba3240c3e8de511e72347cf4d7c81320180169ccc417427638ce9df2"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.24/open-browser-use-cli-0.1.24-darwin-amd64.tar.gz"
+      sha256 "b03382517abb6313cf8581f50f1c679622b0220a6f6ee28357ddb72146a09e55"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.23/open-browser-use-cli-0.1.23-linux-arm64.tar.gz"
-      sha256 "f22beaad44c988c86acb1e049826d5af7458df5ef6b4c617118c048c17269c4d"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.24/open-browser-use-cli-0.1.24-linux-arm64.tar.gz"
+      sha256 "3367ada795d43f478958d3b3705f99f0dc7609f27a4fd1b10c2ad1581517c78b"
     else
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.23/open-browser-use-cli-0.1.23-linux-amd64.tar.gz"
-      sha256 "d76b9ff3e6f1fc52fa8f715f67244c378a3f569c57116f91c5c12ff38f7c3491"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.24/open-browser-use-cli-0.1.24-linux-amd64.tar.gz"
+      sha256 "b6d971f95fabd00cdfc121209ddecf41d7969dd9f6207a65e08024aaa7c97f64"
     end
   end
 
