@@ -2,25 +2,25 @@ class OpenBrowserUse < Formula
   desc "Browser automation native host and CLI"
   homepage "https://github.com/iFurySt/open-codex-browser-use"
   license "MIT"
-  version "0.1.29"
+  version "0.1.30"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.29/open-browser-use-cli-0.1.29-darwin-arm64.tar.gz"
-      sha256 "076e58fae3fd70065e13cccbe2b8b6d89d5e1e502d90e65d718126ed3314d40a"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.30/open-browser-use-cli-0.1.30-darwin-arm64.tar.gz"
+      sha256 "bd8b0d0e084f00e77310694f5af3d4b78f832b1d1492a8113b37ee964ce35bd5"
     else
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.29/open-browser-use-cli-0.1.29-darwin-amd64.tar.gz"
-      sha256 "6c0d40dea44fd631a9b04fc713dcfb9b4ccc26a313a283dbd663fe932f064b9d"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.30/open-browser-use-cli-0.1.30-darwin-amd64.tar.gz"
+      sha256 "49ff08879ec5bcfe5b1f9ea20887e4c31eb8e7c101d3e4ef0fc4cbfff94525fd"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.29/open-browser-use-cli-0.1.29-linux-arm64.tar.gz"
-      sha256 "7bced891e88dc499b31d3a9d0b577a3d2dfe1c166546ff23e0faf06253102c7f"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.30/open-browser-use-cli-0.1.30-linux-arm64.tar.gz"
+      sha256 "5860ff3f3a55172e7998988ce7e0ffd65e183f25fbc7ba234dc7c8f66489f6bf"
     else
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.29/open-browser-use-cli-0.1.29-linux-amd64.tar.gz"
-      sha256 "ca869381dc72c40a3751d4bfd50e6cf2ed6b5a948acfc3b18c541c96c3308f53"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.30/open-browser-use-cli-0.1.30-linux-amd64.tar.gz"
+      sha256 "a0072392dca9455bbb6002e312e30f0065b0cef193c32e610261202adb2eb4bd"
     end
   end
 
