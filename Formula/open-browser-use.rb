@@ -2,25 +2,25 @@ class OpenBrowserUse < Formula
   desc "Browser automation native host and CLI"
   homepage "https://github.com/iFurySt/open-codex-browser-use"
   license "MIT"
-  version "0.1.30"
+  version "0.1.31"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.30/open-browser-use-cli-0.1.30-darwin-arm64.tar.gz"
-      sha256 "bd8b0d0e084f00e77310694f5af3d4b78f832b1d1492a8113b37ee964ce35bd5"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.31/open-browser-use-cli-0.1.31-darwin-arm64.tar.gz"
+      sha256 "556163173f74e049580332d50ac1b863f3e915172a593733423581e9e549e693"
     else
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.30/open-browser-use-cli-0.1.30-darwin-amd64.tar.gz"
-      sha256 "49ff08879ec5bcfe5b1f9ea20887e4c31eb8e7c101d3e4ef0fc4cbfff94525fd"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.31/open-browser-use-cli-0.1.31-darwin-amd64.tar.gz"
+      sha256 "710616ca450ae6c6d13be49a25731b511eb773fdd02dad44de94ae53956546eb"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.30/open-browser-use-cli-0.1.30-linux-arm64.tar.gz"
-      sha256 "5860ff3f3a55172e7998988ce7e0ffd65e183f25fbc7ba234dc7c8f66489f6bf"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.31/open-browser-use-cli-0.1.31-linux-arm64.tar.gz"
+      sha256 "2a11e07c604097b8d9e034b01e93d21ab4c472a515afb578fb63cef6a3dcb7d7"
     else
-      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.30/open-browser-use-cli-0.1.30-linux-amd64.tar.gz"
-      sha256 "a0072392dca9455bbb6002e312e30f0065b0cef193c32e610261202adb2eb4bd"
+      url "https://github.com/iFurySt/open-codex-browser-use/releases/download/v0.1.31/open-browser-use-cli-0.1.31-linux-amd64.tar.gz"
+      sha256 "cf53528576fdd00e69b949582616c053fab183644141ec6e5604a5a470250ab0"
     end
   end
 
@@ -38,7 +38,7 @@ class OpenBrowserUse < Formula
     <<~EOS
       Run the following command to install:
 
-        open-browser-use setup beta
+        open-browser-use setup
     EOS
   end
 end
