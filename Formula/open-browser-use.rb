@@ -2,25 +2,25 @@ class OpenBrowserUse < Formula
   desc "Browser automation native host and CLI"
   homepage "https://github.com/iFurySt/open-browser-use"
   license "MIT"
-  version "1.0.0"
+  version "1.1.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/iFurySt/open-browser-use/releases/download/v1.0.0/open-browser-use-cli-1.0.0-darwin-arm64.tar.gz"
-      sha256 "e72ec4a848da373bb459d7177dd9e0c4cc55a71eaa72a5a552d9205b00ad3b78"
+      url "https://github.com/iFurySt/open-browser-use/releases/download/v1.1.0/open-browser-use-cli-1.1.0-darwin-arm64.tar.gz"
+      sha256 "280f63b29fb2d8371ce59918739df1d44ca8239da47b61dddee0f90ba169a9cf"
     else
-      url "https://github.com/iFurySt/open-browser-use/releases/download/v1.0.0/open-browser-use-cli-1.0.0-darwin-amd64.tar.gz"
-      sha256 "88cbdfad066302cdd71bafd4249f34609280689b5115a77811a4d7abdad23965"
+      url "https://github.com/iFurySt/open-browser-use/releases/download/v1.1.0/open-browser-use-cli-1.1.0-darwin-amd64.tar.gz"
+      sha256 "06e02a6f37e255e7cebfc74d8acbc270eaa94ca9f112e7fca2c13b3a167a299f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/iFurySt/open-browser-use/releases/download/v1.0.0/open-browser-use-cli-1.0.0-linux-arm64.tar.gz"
-      sha256 "5d8e85418c2b6642f75a0667f712d06d673b11f2e545d946ba9576a0820efbb3"
+      url "https://github.com/iFurySt/open-browser-use/releases/download/v1.1.0/open-browser-use-cli-1.1.0-linux-arm64.tar.gz"
+      sha256 "fc1095d5d5d80a13fe2d0934c519f59bd7d98f710d561b4424e86a308ec74a39"
     else
-      url "https://github.com/iFurySt/open-browser-use/releases/download/v1.0.0/open-browser-use-cli-1.0.0-linux-amd64.tar.gz"
-      sha256 "5737b38ccb6d5b824672f5c784e31eb12c2c42b66137a4daa2acf384b42e61e4"
+      url "https://github.com/iFurySt/open-browser-use/releases/download/v1.1.0/open-browser-use-cli-1.1.0-linux-amd64.tar.gz"
+      sha256 "9fdc551631806ef80f0cd219c50f2849e67430a085affac2741de2009a724039"
     end
   end
 
